@@ -1,10 +1,15 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-# This programming assignment seeks the correct use and knowledge of construct funcions and demonstrate lexical scoping skills. Assignment has two parts: first, we create a function that cache the inverse of a matrix, and second one, retrieve the inverse from the cache.
+# This programming assignment seeks the correct use and knowledge of construct
+#funcions and demonstrate lexical scoping skills. Assignment has two parts: first,
+#we create a function that cache the inverse of a matrix, and second one, retrieve
+#the inverse from the cache.
 
 
 ## Write a short comment describing this function
-# This function creates a special "matrix" object that can store a matrix and then a cached its inverse, instead of recalculating. We need a pair of functions that cache the inverse of a matrix.
+# This function creates a special "matrix" object that can store a matrix and then 
+#a cached its inverse, instead of recalculating. We need a pair of functions that
+#cache the inverse of a matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 # Initialize the inverse (to NULL)       
@@ -29,7 +34,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-# This function computes the inverse of the matrix returned by makeCacheMatrix function. If the inverse has already been calculated (and the matrix has not changed), then cacheSolve should retrieve the inverse from the cache.
+# This function computes the inverse of the matrix returned by makeCacheMatrix
+#function. If the inverse has already been calculated (and the matrix has not
+#changed), then cacheSolve should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
 # Get the store inverse from the cache
